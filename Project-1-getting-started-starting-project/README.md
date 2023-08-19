@@ -1,4 +1,4 @@
-# Projet 1 - Installation - Les bases
+# Projet 1 - Installation
 
 ## Installation de Cypress
 

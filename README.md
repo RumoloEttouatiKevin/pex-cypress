@@ -1,3 +1,3 @@
 # PEX-Cypress
 
-- [Projet 1 - Les bases](./Project-1-getting-started-starting-project/README.md)
+- [Projet 1 - Installation](./Project-1-getting-started-starting-project/README.md)

@@ -1,4 +1,4 @@
-# Projet 3 - Les bases plus
+# Projet 3 - Les bases avancées
 
 ## Best practices
 

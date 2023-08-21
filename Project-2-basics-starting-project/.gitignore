@@ -2,7 +2,8 @@
 dist
 
 # Cypress screenshot
-cypress/downloads
+cypress/screenshots
+cypress/videos
 
 # local env files
 .env.local

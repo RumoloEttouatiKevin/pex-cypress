@@ -121,3 +121,38 @@ Cypress.Commands.addQuery('getById', (id) => {
 ```
 
 !! ATTENTION, comme le point précédent, il faut avoir une réel réflexion sur l'utilisation de requête custom.
+
+## Les tâches
+
+Il est possible d'intercepter les tâches, comme un écouteur d'événement.
+
+Dans le fichier de configuration.
+
+```js
+export default defineConfig({
+  e2e: {
+    setupNodeEvents(on, config) {
+      on('task', {
+        nameMethod(parameter) {
+          // On peut exécuter n'importe quel code javascript valide
+          // Ce code n'est pas exécuté côté navigateur
+
+          return parameter;
+        }
+      });
+    },
+  },
+});
+```
+
+Dans les tests.
+
+```js
+describe('spec', () => {
+  it('test', () => {
+    cy.task('nameMethod').then(returnValue => {
+      //... use return value
+    });
+  });
+});
+```

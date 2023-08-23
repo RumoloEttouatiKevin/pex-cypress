@@ -10,6 +10,10 @@ describe('contact form', {
   it('should submit the form', {
     defaultCommandTimeout: 5000
   }, () => {
+    cy.task('nameMethod').then(returnValue => {
+      //... use return value.
+    });
+    cy.task('nameMethod', 'argument');
     cy.getById('contact-input-message').type('Hello world!');
     cy.getById('contact-input-name').type('John Doe');
     cy.getById('contact-btn-submit').then((el) => {

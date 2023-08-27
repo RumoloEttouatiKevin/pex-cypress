@@ -5,3 +5,4 @@
 - [Projet 3 - Les bases avancées](./Project-3-diving-deeper-starting-project/README.md)
 - [Projet 4 - Configuration](./Project-4-config-starting-project/README.md)
 - [Projet 5 - Manipulation de donnée](./Project-5-stubs-starting-project/README.md)
+- [Projet 6 - Requête HTTP - Authentification - base de donnée](./Project-6-network-auth-starting-project/README.md)
